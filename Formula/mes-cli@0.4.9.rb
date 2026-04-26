@@ -19,6 +19,7 @@ class MesCliAT049 < Formula
 
   def install
     bin.install "bin/mes"
+    prefix.install "skills"
   end
 
   def test
