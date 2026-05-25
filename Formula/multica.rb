@@ -5,21 +5,21 @@
 class Multica < Formula
   desc "Multica CLI — local agent runtime and management tool for the Multica platform"
   homepage "https://github.com/enmotech/multica"
-  version "0.0.1-test-swr"
+  version "1.0.4"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/enmotech/multica/releases/download/v0.0.1-test-swr/multica-cli-0.0.1-test-swr-darwin-amd64.tar.gz"
-      sha256 "e263c2866c68ef5b65b9e370d668fea6b3f5abb9ffb2a3018d8ecf7349e90b7a"
+      url "https://github.com/enmotech/multica/releases/download/v1.0.4/multica-cli-1.0.4-darwin-amd64.tar.gz"
+      sha256 "404a85ed3f5bd2c55e422e04b3ae41f96223a685b7ba3133e9f1c6cc8aa52943"
 
       define_method(:install) do
         bin.install "multica"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/enmotech/multica/releases/download/v0.0.1-test-swr/multica-cli-0.0.1-test-swr-darwin-arm64.tar.gz"
-      sha256 "43197b7d60d3f298d084064e0e21cf2fb9f1ab1b1b7a06fa56f2ed89597589b1"
+      url "https://github.com/enmotech/multica/releases/download/v1.0.4/multica-cli-1.0.4-darwin-arm64.tar.gz"
+      sha256 "a23d9c26f2085af21f9199317c20a6e1ce86f4c632d9766eecf5dc057e5e4239"
 
       define_method(:install) do
         bin.install "multica"
@@ -29,15 +29,15 @@ class Multica < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/enmotech/multica/releases/download/v0.0.1-test-swr/multica-cli-0.0.1-test-swr-linux-amd64.tar.gz"
-      sha256 "9a3101521224c36330bfe8a1e9fe4cd36f70fbc1f4d2d6c49c0c1763a67d651d"
+      url "https://github.com/enmotech/multica/releases/download/v1.0.4/multica-cli-1.0.4-linux-amd64.tar.gz"
+      sha256 "67e91b4037471bd81e427d7ed8c293732aa71c97d326de98eb4ee9e0b9a5fa0b"
       define_method(:install) do
         bin.install "multica"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/enmotech/multica/releases/download/v0.0.1-test-swr/multica-cli-0.0.1-test-swr-linux-arm64.tar.gz"
-      sha256 "2264b4250cb9dab98dcf62df352578075c2b70c65a441b8b0a7c2fda4a7b96d5"
+      url "https://github.com/enmotech/multica/releases/download/v1.0.4/multica-cli-1.0.4-linux-arm64.tar.gz"
+      sha256 "3d258fb536209041d48441b4d93fdd0c5b6fdd72206f9cbf5579be8d24c7e4b9"
       define_method(:install) do
         bin.install "multica"
       end
