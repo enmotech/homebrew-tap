@@ -11,7 +11,7 @@ class Multica < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/enmotech/multica/releases/download/v0.0.1-test-swr/multica-cli-0.0.1-test-swr-darwin-amd64.tar.gz"
-      sha256 "a5f90f2a6c829d09cbbb739d55ac3eae6d29b32b55d078516f2c42ce558df7f3"
+      sha256 "e263c2866c68ef5b65b9e370d668fea6b3f5abb9ffb2a3018d8ecf7349e90b7a"
 
       define_method(:install) do
         bin.install "multica"
@@ -19,7 +19,7 @@ class Multica < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/enmotech/multica/releases/download/v0.0.1-test-swr/multica-cli-0.0.1-test-swr-darwin-arm64.tar.gz"
-      sha256 "c6235bf21b44bd56e46e2dc243c381f4fdeb3cf45d7b424786d1601704d464ba"
+      sha256 "43197b7d60d3f298d084064e0e21cf2fb9f1ab1b1b7a06fa56f2ed89597589b1"
 
       define_method(:install) do
         bin.install "multica"
@@ -30,14 +30,14 @@ class Multica < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/enmotech/multica/releases/download/v0.0.1-test-swr/multica-cli-0.0.1-test-swr-linux-amd64.tar.gz"
-      sha256 "9be538d6df975c27fab4bcbcf3b945c8f7e4bf9212710561d4462087cb2e00a3"
+      sha256 "9a3101521224c36330bfe8a1e9fe4cd36f70fbc1f4d2d6c49c0c1763a67d651d"
       define_method(:install) do
         bin.install "multica"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/enmotech/multica/releases/download/v0.0.1-test-swr/multica-cli-0.0.1-test-swr-linux-arm64.tar.gz"
-      sha256 "39ced937041a506150e2879c9e8f62a8d9d9d8cec700166d18f6860fb2acf827"
+      sha256 "2264b4250cb9dab98dcf62df352578075c2b70c65a441b8b0a7c2fda4a7b96d5"
       define_method(:install) do
         bin.install "multica"
       end
