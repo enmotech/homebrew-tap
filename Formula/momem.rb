@@ -10,7 +10,7 @@ class Momem < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/kamusis/momem-cli/releases/download/v0.1.0/momem-0.1.0-macOS-amd64.zip"
-      sha256 "b21686dcc8fc8df4fcb6ff63efd15aa6a5f665266d1709fc5386d5b046aa0002"
+      sha256 "77c631f58b16377c44fda4e5958b190171f7faba5928e23a7ffb6e6f2d04e513"
 
       define_method(:install) do
         bin.install "bin/momem"
@@ -19,7 +19,7 @@ class Momem < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/kamusis/momem-cli/releases/download/v0.1.0/momem-0.1.0-macOS-arm64.zip"
-      sha256 "666e5750f28e7c3464f8dc112a94b9f9cd5b8ae5e538a73afe5edfc0224a54aa"
+      sha256 "9dd6b0473a7a208e9a445efb66757646118f182cd1ba2050df4fe42e0c66cd55"
 
       define_method(:install) do
         bin.install "bin/momem"
@@ -31,7 +31,7 @@ class Momem < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/kamusis/momem-cli/releases/download/v0.1.0/momem-0.1.0-linux-amd64.zip"
-      sha256 "9cfcfc5c1d5158e4e742eea1e9c9de8e5a4d585dca0a1c614ea8a3cbb76ce7e4"
+      sha256 "19f567786768336cb73029b8190a659ab489faa40ab2b19a2cbf21de4bff5377"
       define_method(:install) do
         bin.install "bin/momem"
         prefix.install "skills"
@@ -39,7 +39,7 @@ class Momem < Formula
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/kamusis/momem-cli/releases/download/v0.1.0/momem-0.1.0-linux-arm64.zip"
-      sha256 "3780439fc584a0b9a8ee1e92f7aca4b4b269721e458e93764a0f37a0e2999b32"
+      sha256 "5589bb9ac4e481d4054bda2ff3d1a14951a15c038f80d4fc8b59b2435abadfb2"
       define_method(:install) do
         bin.install "bin/momem"
         prefix.install "skills"
