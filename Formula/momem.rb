@@ -5,12 +5,12 @@
 class Momem < Formula
   desc "CLI-first memory distillation and retrieval tool for DBA operations knowledge"
   homepage "https://github.com/enmotech/momem-cli"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/kamusis/momem-cli/releases/download/v0.1.1/momem-0.1.1-macOS-amd64.zip"
-      sha256 "a6d7a27a9d26c1ed483890c088f90b337ce69fce661b0a40da15444c6f3957d4"
+      url "https://github.com/kamusis/momem-cli/releases/download/v0.1.2/momem-0.1.2-macOS-amd64.zip"
+      sha256 "e177ce51105a88662236045525beaefc839fabe434e8a3ba4abaf1150e0479e9"
 
       define_method(:install) do
         bin.install "bin/momem"
@@ -18,8 +18,8 @@ class Momem < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/kamusis/momem-cli/releases/download/v0.1.1/momem-0.1.1-macOS-arm64.zip"
-      sha256 "f12c3f0a18f2a2dba1c9892140690f2396a51805f7b7202d844db78085ca39a3"
+      url "https://github.com/kamusis/momem-cli/releases/download/v0.1.2/momem-0.1.2-macOS-arm64.zip"
+      sha256 "c287ac258a81852d118f061846af079104fafcd5db513be449cf35467ca29e15"
 
       define_method(:install) do
         bin.install "bin/momem"
@@ -30,16 +30,16 @@ class Momem < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kamusis/momem-cli/releases/download/v0.1.1/momem-0.1.1-linux-amd64.zip"
-      sha256 "1d17bb8695697e4006d13413146258a49f4dd27cd87f9b47e22e255dea164bfd"
+      url "https://github.com/kamusis/momem-cli/releases/download/v0.1.2/momem-0.1.2-linux-amd64.zip"
+      sha256 "a2b7ee3cbb631300cb4ff303ad6a62f86cf38172bad0ee9b01f1f1f93c538a68"
       define_method(:install) do
         bin.install "bin/momem"
         prefix.install "skills"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kamusis/momem-cli/releases/download/v0.1.1/momem-0.1.1-linux-arm64.zip"
-      sha256 "b7133178c400bd64765eb7cd96e622d92c3e2b686c7cfd20cbd022711c17f062"
+      url "https://github.com/kamusis/momem-cli/releases/download/v0.1.2/momem-0.1.2-linux-arm64.zip"
+      sha256 "bbd222a339b18ffaa61fb6416716735402870bedf20b8606f393407a9501addd"
       define_method(:install) do
         bin.install "bin/momem"
         prefix.install "skills"
