@@ -5,20 +5,20 @@
 class Moclaw < Formula
   desc "CLI for MoClaw — AI-native ticket management platform with agent orchestration"
   homepage "https://github.com/enmotech/moclaw"
-  version "2.1.1"
+  version "2.1.2"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/enmotech/moclaw/releases/download/v2.1.1/moclaw_v2.1.1_darwin_amd64.tar.gz"
-      sha256 "ca82b52e9079a0535317664def1abdf98b265ba111613127a3322b51e757d532"
+      url "https://github.com/enmotech/moclaw/releases/download/v2.1.2/moclaw_v2.1.2_darwin_amd64.tar.gz"
+      sha256 "1128cd6cd4281a114ca405acf8c019087d3794a8dc4ce0b6e810e6e58422beb7"
 
       define_method(:install) do
         bin.install "moclaw"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/enmotech/moclaw/releases/download/v2.1.1/moclaw_v2.1.1_darwin_arm64.tar.gz"
-      sha256 "28cf64bdcb689ff4dcc1b534d6204d18287cfaa1179b9ff7e873d241df802f87"
+      url "https://github.com/enmotech/moclaw/releases/download/v2.1.2/moclaw_v2.1.2_darwin_arm64.tar.gz"
+      sha256 "d440be7e09ace4e94eaa1b79a1cd0b41207b7dfd4bb78550aa4235c397545ffa"
 
       define_method(:install) do
         bin.install "moclaw"
@@ -28,15 +28,15 @@ class Moclaw < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/enmotech/moclaw/releases/download/v2.1.1/moclaw_v2.1.1_linux_amd64.tar.gz"
-      sha256 "f7690d33cc5c3656dca15c512430923605385dcda8c74c9a87911c153c589e77"
+      url "https://github.com/enmotech/moclaw/releases/download/v2.1.2/moclaw_v2.1.2_linux_amd64.tar.gz"
+      sha256 "69b5eac950775a2a8e48e967931338c8e202bc59a0a2e18056bef0efbfd73964"
       define_method(:install) do
         bin.install "moclaw"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/enmotech/moclaw/releases/download/v2.1.1/moclaw_v2.1.1_linux_arm64.tar.gz"
-      sha256 "1041a1792e799b33bc4b6493de9a59c8afdfe98da65fcd03d5803ae2e4d19106"
+      url "https://github.com/enmotech/moclaw/releases/download/v2.1.2/moclaw_v2.1.2_linux_arm64.tar.gz"
+      sha256 "669d3a032e53a08c28542fd51a0715de71a684ba42ddc75755f49df4b192bacd"
       define_method(:install) do
         bin.install "moclaw"
       end
