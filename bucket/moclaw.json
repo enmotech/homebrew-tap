@@ -6,14 +6,14 @@
             "bin": [
                 "moclaw.exe"
             ],
-            "hash": "36e54dbdab549ec4a8ffcb0502320b102671d83b0b4900bcff7fc3ae885d5353"
+            "hash": "76ee15d058742d026bae4d9ffe7d32bc17dec838985d312b5588ee8e862d8a18"
         },
         "arm64": {
             "url": "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/moclaw/2.1.3/moclaw_v2.1.3_windows_arm64.zip",
             "bin": [
                 "moclaw.exe"
             ],
-            "hash": "c9e0df467bf1a22c5f32647106199564fa2e19de85f11fad63dccb7b92b89f3f"
+            "hash": "89f9eb23cab975d8c44dee93004282ace401172e0677172f849d0de77b3cbfe5"
         }
     },
     "homepage": "https://github.com/enmotech/moclaw",
