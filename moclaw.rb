@@ -10,7 +10,7 @@ class Moclaw < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/enmotech/moclaw/releases/download/v2.1.3/moclaw_v2.1.3_darwin_amd64.tar.gz"
-      sha256 "6b61704e427a0c2f4cd4f692c734b6aab99d12ea83d05beff114f11119858064"
+      sha256 "c085e914215fd84f40d37a318e4d7f6fce948b0a35890b0385ebf1152d36b9ef"
 
       define_method(:install) do
         bin.install "moclaw"
@@ -18,7 +18,7 @@ class Moclaw < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/enmotech/moclaw/releases/download/v2.1.3/moclaw_v2.1.3_darwin_arm64.tar.gz"
-      sha256 "f1208356e7e336807d2f4c8628845ed4a7825bbdbbb793de253e3de52481c426"
+      sha256 "5261fb8cb35181aa7314981f34f339bcfa0fc720e46b4b0e46e5f35e667c092b"
 
       define_method(:install) do
         bin.install "moclaw"
@@ -29,14 +29,14 @@ class Moclaw < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/enmotech/moclaw/releases/download/v2.1.3/moclaw_v2.1.3_linux_amd64.tar.gz"
-      sha256 "35a110eb20296a1ebb09285c3667f892aa97fe4562d2095f29dbf575779158fd"
+      sha256 "7b745192434b9da0c310e7d8c9d6666e63668621dc1def4a6965c9043d61c7e0"
       define_method(:install) do
         bin.install "moclaw"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/enmotech/moclaw/releases/download/v2.1.3/moclaw_v2.1.3_linux_arm64.tar.gz"
-      sha256 "47f004ea483642371cf0eae332c118648e89616f184d7cae1e5b3202ffed849a"
+      sha256 "5685812a054afc412d10f2711d5e0aa0ed653209247f78f9b0f26cc92dd37632"
       define_method(:install) do
         bin.install "moclaw"
       end
