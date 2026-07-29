@@ -1,20 +1,20 @@
 class MesCli < Formula
   desc "Enmotech MES CLI tools"
   homepage "https://github.com/enmotech/mes-cli"
-  version "0.5.2"
+  version "0.5.3"
 
   if OS.mac? && Hardware::CPU.arm?
-    url "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/mes/0.5.2/mes-0.5.2-macOS-arm64.zip"
-    sha256 "c044ee816168a62de82e0b63e626ba2112f5f895bc0aff3c4d4af80a0401ae1e"
+    url "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/mes/0.5.3/mes-0.5.3-macOS-arm64.zip"
+    sha256 "e785aec7c4d41803b97a5403f4c05e68d1530d409cfa2fcd3d82e7ad0bfcb35d"
   elsif OS.mac? && Hardware::CPU.intel?
-    url "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/mes/0.5.2/mes-0.5.2-macOS-amd64.zip"
-    sha256 "04f19c797cad2d388c738de981e69f4be5b0197d05d421441d4a3e6fae4761ea"
+    url "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/mes/0.5.3/mes-0.5.3-macOS-amd64.zip"
+    sha256 "9ac2b228c0b2e6c150609bf4036d28f4cb209fb8b5a29ee3211fdc79e90449d5"
   elsif OS.linux? && Hardware::CPU.arm?
-    url "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/mes/0.5.2/mes-0.5.2-linux-arm64.zip"
-    sha256 "8c4d7f9ec02c0aab0851ef40d057b921a57937e44e8afad722738514c1810ef0"
+    url "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/mes/0.5.3/mes-0.5.3-linux-arm64.zip"
+    sha256 "3dae7138ae69ffa85414697bc2122f68ef2f2f2b9aa8fdacf7716baf61b15f94"
   elsif OS.linux? && Hardware::CPU.intel?
-    url "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/mes/0.5.2/mes-0.5.2-linux-amd64.zip"
-    sha256 "30dc970970c8c70b06c6b132e15a6399116435d9d8ffd398df37956d92a91d54"
+    url "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/mes/0.5.3/mes-0.5.3-linux-amd64.zip"
+    sha256 "58208b161c11725267ba031abde60efb64bb984b3f7f0d9e338970e7dd157ca1"
   end
 
   def install
