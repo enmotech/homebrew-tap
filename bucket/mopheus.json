@@ -1,19 +1,19 @@
 {
-    "version": "2.2.0",
+    "version": "2.2.1",
     "architecture": {
         "64bit": {
-            "url": "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/mopheus/2.2.0/mopheus_v2.2.0_windows_amd64.zip",
+            "url": "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/mopheus/2.2.1/mopheus_v2.2.1_windows_amd64.zip",
             "bin": [
                 "mopheus.exe"
             ],
-            "hash": "056a3be3e9005b98af555e3f5de91bca9bd9089882da44e24155e532fb7a1721"
+            "hash": "32fb2a8c659034b98e712f328b4836549b6acb48fb65b17d0f006ccb5942ead9"
         },
         "arm64": {
-            "url": "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/mopheus/2.2.0/mopheus_v2.2.0_windows_arm64.zip",
+            "url": "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/mopheus/2.2.1/mopheus_v2.2.1_windows_arm64.zip",
             "bin": [
                 "mopheus.exe"
             ],
-            "hash": "635f036ca385450ceb60b67f1d640e2fce540faab437f1245fd86c75537a57e2"
+            "hash": "fa8fb85cdf2b0547ff86549f808ce7bf34ce33e31d6424cebce09628c0774447"
         }
     },
     "homepage": "https://github.com/enmotech/mopheus",
