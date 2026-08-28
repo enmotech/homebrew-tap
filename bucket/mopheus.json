@@ -1,22 +1,22 @@
 {
-    "version": "2.2.3",
+    "version": "2.2.4",
     "architecture": {
         "64bit": {
-            "url": "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/mopheus/2.2.3/mopheus_v2.2.3_windows_amd64.zip",
+            "url": "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/mopheus/2.2.4/mopheus_v2.2.4_windows_amd64.zip",
             "bin": [
                 "mopheus.exe"
             ],
-            "hash": "31eb0f4ac8f6623d309bbb5625e3330f5ce263e1b23ed99a0316d89405046838"
+            "hash": "a3f16f4f5659b83f7a3583aa2f82a779d550f80e96f8d0724b1f05386b32c55f"
         },
         "arm64": {
-            "url": "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/mopheus/2.2.3/mopheus_v2.2.3_windows_arm64.zip",
+            "url": "https://oss-emcsprod-public.oss-cn-beijing.aliyuncs.com/tools/mopheus/2.2.4/mopheus_v2.2.4_windows_arm64.zip",
             "bin": [
                 "mopheus.exe"
             ],
-            "hash": "23a4b8ebac3c3e5fda4783eccd39a44f7130a6cbb2a458ad03f1c59a8946d4ba"
+            "hash": "bd697940ed3a72d57e24eff8f5d44340aaab7965b4e499010b400e2cf61ac8ae"
         }
     },
     "homepage": "https://github.com/enmotech/mopheus",
-    "license": "MIT",
+    "license": "Proprietary",
     "description": "CLI for Mopheus — AI-native ticket management platform with agent orchestration"
 }
