@@ -6,14 +6,14 @@
             "bin": [
                 "mopheus.exe"
             ],
-            "hash": "2d225196565225a7ef41538dedf83ecf6fc5dcfade66e888ae7e7c219cf57f9b"
+            "hash": "d113ea3acb02b0ec9237e75055f30dd04f512200ec240440ab225f253d425720"
         },
         "arm64": {
             "url": "https://mopheus.obs.cn-north-4.myhuaweicloud.com/tools/mopheus/v2.2.9/mopheus_v2.2.9_windows_arm64.zip",
             "bin": [
                 "mopheus.exe"
             ],
-            "hash": "1f937fecf5fa270bfebb7c07eda5d321dc3e359b1222a53d4c353058568926bc"
+            "hash": "457857aa1cc4481857e869afd627e844d9c866cbf01d0439aef06e2e1230cb96"
         }
     },
     "homepage": "https://github.com/enmotech/mopheus",
