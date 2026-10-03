@@ -10,7 +10,7 @@ class Mopheus < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/enmotech/mopheus/releases/download/v2.2.9/mopheus_v2.2.9_darwin_amd64.tar.gz"
-      sha256 "8276ee3160d71fff210a63be4c7f11688d16a374debea5fbb56b04c5379bfed0"
+      sha256 "0738ec71d3eef390c7e28c63f936d5a8738264d6cc9a319d025d1bbe99584040"
 
       define_method(:install) do
         bin.install "mopheus"
@@ -18,7 +18,7 @@ class Mopheus < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/enmotech/mopheus/releases/download/v2.2.9/mopheus_v2.2.9_darwin_arm64.tar.gz"
-      sha256 "dd0e52ae2f95cf6f2edbb103393039a457f754e82f49ccd58cf1615b9fafd150"
+      sha256 "9a451c825a289fa91f577b9d9ad66e969127299541f058cacbfd4358dee66ba8"
 
       define_method(:install) do
         bin.install "mopheus"
@@ -29,14 +29,14 @@ class Mopheus < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/enmotech/mopheus/releases/download/v2.2.9/mopheus_v2.2.9_linux_amd64.tar.gz"
-      sha256 "d2c043f417a5fc7b1ca3f0bcdfb36975a07fbf8df3db2a6df96fd40bb942265a"
+      sha256 "ba400155ccc09177c4392757bb5ebdce5d2949dfb8fa83acd6f95f433511eff9"
       define_method(:install) do
         bin.install "mopheus"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/enmotech/mopheus/releases/download/v2.2.9/mopheus_v2.2.9_linux_arm64.tar.gz"
-      sha256 "c7678935b66cd3383f29b7b18f5b7fb7d48b73fbbbe872d5c99a7f16b7a27133"
+      sha256 "914bae2ebfb78a9a000106b06ecc689704dbf0e35a0941e325fe92f46e729ff8"
       define_method(:install) do
         bin.install "mopheus"
       end
