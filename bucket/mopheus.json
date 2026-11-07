@@ -1,19 +1,19 @@
 {
-    "version": "2.2.14",
+    "version": "2.2.15",
     "architecture": {
         "64bit": {
-            "url": "https://mopheus.obs.cn-north-4.myhuaweicloud.com/tools/mopheus/v2.2.14/mopheus_v2.2.14_windows_amd64.zip",
+            "url": "https://mopheus.obs.cn-north-4.myhuaweicloud.com/tools/mopheus/v2.2.15/mopheus_v2.2.15_windows_amd64.zip",
             "bin": [
                 "mopheus.exe"
             ],
-            "hash": "6b42b6b893d23523aedabb682cbb37ef90ee4abf82ab72515b0bd1dd3920c48c"
+            "hash": "1c4740804e56c869bb22f7b41a68f5833ff4f13f8d4fe7fd20924e8cf1d4ba81"
         },
         "arm64": {
-            "url": "https://mopheus.obs.cn-north-4.myhuaweicloud.com/tools/mopheus/v2.2.14/mopheus_v2.2.14_windows_arm64.zip",
+            "url": "https://mopheus.obs.cn-north-4.myhuaweicloud.com/tools/mopheus/v2.2.15/mopheus_v2.2.15_windows_arm64.zip",
             "bin": [
                 "mopheus.exe"
             ],
-            "hash": "8249c55c6c072391bbb46d438b22e86e72b4a75b5f95df4bc3213757c6364d7c"
+            "hash": "8cb4b1a4273b804206dcb48ca23925d9817e7245db9faa16b7399f6ceac003d8"
         }
     },
     "homepage": "https://github.com/enmotech/mopheus",
