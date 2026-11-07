@@ -5,20 +5,20 @@
 class Mopheus < Formula
   desc "CLI for Mopheus — AI-native ticket management platform with agent orchestration"
   homepage "https://github.com/enmotech/mopheus"
-  version "2.2.14"
+  version "2.2.15"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/enmotech/mopheus/releases/download/v2.2.14/mopheus_v2.2.14_darwin_amd64.tar.gz"
-      sha256 "8a5e14381eba5981c12fcc6e6d1c92be951696815fd13b629a779d9b4e348a7a"
+      url "https://github.com/enmotech/mopheus/releases/download/v2.2.15/mopheus_v2.2.15_darwin_amd64.tar.gz"
+      sha256 "7aaa7b99673e8caf7cf6c661a958f53624e9a03c25b2bbee7f2b04ce4a6bdcb1"
 
       define_method(:install) do
         bin.install "mopheus"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/enmotech/mopheus/releases/download/v2.2.14/mopheus_v2.2.14_darwin_arm64.tar.gz"
-      sha256 "dfb1a73f015176b7591855ba968f97287f5fcbab16060d5c33e127ef4e2cdbb5"
+      url "https://github.com/enmotech/mopheus/releases/download/v2.2.15/mopheus_v2.2.15_darwin_arm64.tar.gz"
+      sha256 "daf009da7beaccd13b0808c885cd5d567d4153f99439b2f1ef2150efe2fe26e9"
 
       define_method(:install) do
         bin.install "mopheus"
@@ -28,15 +28,15 @@ class Mopheus < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/enmotech/mopheus/releases/download/v2.2.14/mopheus_v2.2.14_linux_amd64.tar.gz"
-      sha256 "ab126191e539d0e7eff45b18efc949e8643c8cb247df5b8b95cf8568e2254c73"
+      url "https://github.com/enmotech/mopheus/releases/download/v2.2.15/mopheus_v2.2.15_linux_amd64.tar.gz"
+      sha256 "ff0abae22d7ee1518d67ceff2af4af954110f27396b559fb7ed77218054fb24a"
       define_method(:install) do
         bin.install "mopheus"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/enmotech/mopheus/releases/download/v2.2.14/mopheus_v2.2.14_linux_arm64.tar.gz"
-      sha256 "bb994caa3470d2de391e0633c66e7285dec29f0b12c5259c794a9b0a6cd0ab73"
+      url "https://github.com/enmotech/mopheus/releases/download/v2.2.15/mopheus_v2.2.15_linux_arm64.tar.gz"
+      sha256 "5310a38887bc566e7287167cf47d9d17acdb6cfcf2687ace21f632e2fca9900e"
       define_method(:install) do
         bin.install "mopheus"
       end
